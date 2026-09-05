@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Daily Blog</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>📝 My Daily Blog</h1>
+  <p>One post every day.</p>
+  <input id="search" type="search" placeholder="Search posts..." />
+</header>
+
+<main>
+  <section class="new-post">
+    <h2>New post for today</h2>
+    <input id="title" placeholder="Post title..." />
+    <input id="date" type="date" />
+    <textarea id="content" rows="5" placeholder="Write today's blog..."></textarea>
+    <div class="row">
+      <button onclick="addPost()">Publish Post</button>
+      <button class="ghost" onclick="exportPosts()">Export for GitHub</button>
+    </div>
+    <p class="hint">Posts save in your browser. Click "Export for GitHub" to make them permanent on your published site — instructions in README.</p>
+  </section>
+
+  <section id="posts"></section>
+</main>
+
+<footer>Made for GitHub Pages ❤️</footer>
+<script src="posts.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

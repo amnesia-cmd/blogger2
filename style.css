@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #f6f4ef; color: #222; }
+header { background: #1a1a1a; color: #fff; padding: 2rem 1rem; text-align: center; }
+header h1 { margin: 0; }
+#search { margin-top: 1rem; padding: .6rem 1rem; width: min(400px, 90%); border-radius: 20px; border: none; }
+main { max-width: 700px; margin: 0 auto; padding: 1rem; }
+.new-post { background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.new-post input, .new-post textarea { width: 100%; margin: .4rem 0; padding: .7rem; border: 1px solid #ddd; border-radius: 8px; }
+.row { display: flex; gap: .5rem; }
+button { background: #1a1a1a; color: #fff; border: none; padding: .7rem 1.2rem; border-radius: 8px; cursor: pointer; }
+button.ghost { background: #eee; color: #222; }
+.hint { font-size: .85rem; color: #666; }
+.post { background: #fff; padding: 1rem; border-radius: 12px; margin: 1rem 0; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.post small { color: #888; }
+.post button { background: none; color: #c00; padding: 0; margin-top: .5rem; }
+footer { text-align: center; padding: 2rem; color: #888; }
